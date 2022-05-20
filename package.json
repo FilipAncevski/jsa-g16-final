@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node services/auth/index.js & node services/blog/index.js & node services/storage/index.js & node services/proxy/index.js &"
   },
   "repository": {
     "type": "git",
